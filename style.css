@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  max-height: 100vh;
+  font-family: serif;
+}
+
+body {
+  margin: 0;
+  min-width: 60ch;
+}
+
+header {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.h1 {
+  font-size: 3rem;
+  margin: 4rem 0.25rem 4rem 4rem;
+}
+
+button {
+  all: unset;
+  font-size: 1.25rem;
+  color: white;
+  background-color: #2b6deb;
+  padding: 0.5rem;
+  margin: 4rem 4rem 4rem 0.25rem;
+  border-radius: 5px;
+}
+
+main {
+  margin: 3rem 4rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#author {
+  color: grey;
+
+  margin-top: 0;
+}
